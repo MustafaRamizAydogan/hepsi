@@ -1,0 +1,118 @@
+﻿@using BarkodWeb.Entity.ViewModels.Users;
+@model List< UserViewModel>
+
+
+<div class="container-xxl flex-grow-1 container-p-y">
+
+
+    <div class="card mb-4">
+
+
+        <div class="row">
+           
+            
+            <!-- listeleme -->
+            <div class="col-12 ">
+
+
+
+                <div class="card-body ">
+
+                    <h3 class="text-center">Personel Listesi</h3>
+
+                    <div class="row">
+                        <div class="table-responsive" id="eklenen_div_scroll" style="font-size:12px;height:600px;overflow-y:scroll;margin:0px;" align="left" valign="top">
+                            <table class="table table-striped table-bordered table-hover " id="datatable-responsive">
+
+
+                                <thead>
+                                    <tr>
+                                       
+                                        <th class="bg-success text-center" style="width: 5px;position:sticky; top: 0 ; "> Adı </th>
+                                        <th class="bg-warning  text-center" style="width: 5px; position:sticky; top: 0 ; "> Soyadı </th>
+
+
+                                        <th class="bg-success text-center" style="width: 10px;position:sticky; top: 0 ; "> Email </th>
+                                        <th class="bg-warning  text-center" style="width: 100px; position:sticky; top: 0 ; ">Password</th>
+
+                                        <th class="bg-warning  text-center" style="width: 50px; position:sticky; top: 0 ; "> Mağaza </th>
+                                        <th class="bg-warning  text-center" style="width: 30px; position:sticky; top: 0 ; ">Rolü</th>
+                                        <th class="bg-warning  text-center" style="width: 10px; position:sticky; top: 0 ; "> İŞLEM </th>
+
+
+
+
+
+
+                                    </tr>
+                                </thead>
+
+
+                                <tbody>
+
+                                    @foreach (var item in Model)
+                                 
+                                    {
+
+
+                                        <tr>
+                                            <td>@item.Name</td>
+                                            <td>@item.LastName</td>
+                                            <td>@item.Email</td>
+                                            <td>@item.Password</td>
+                                            <td>@item.ShopName</td>
+                                            <td>@item.Role</td>
+
+                                            <td>
+                                                <div class="row">
+
+                                                    <div class="col-6">
+
+                                                        <form asp-action="Delete" asp-controller="User" method="post">
+
+                                                            <a data-itemid="@item.Id" asp-controller="User" asp-action="Delete" asp-route-UserId="@item.Id" class="menu-link" title="Silme İşlemi">
+
+                                                                <i class="menu-icon tf-icons bx bxs-folder-minus bx-burst-hover"></i>
+
+                                                            </a>
+
+                                                        </form>
+                                                    </div>
+
+
+                                                </div>
+
+
+
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+
+
+
+
+
+
+                            </table>
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+</div>
+
+

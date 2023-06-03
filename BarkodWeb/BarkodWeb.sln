@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarkodWeb", "BarkodWeb.csproj", "{C3E2DDCC-447E-48D6-8587-6212FC315207}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarkodWeb.Core", "..\BarkodWeb.Core\BarkodWeb.Core.csproj", "{668D3840-04CB-4215-B383-9E8D30CBCC10}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarkodWeb.Data", "..\Barkod.Web.Data\BarkodWeb.Data.csproj", "{DBA1FF04-C5FC-443B-B56B-18B497DCC556}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarkodWeb.Entity", "..\BarkodWeb.Entity\BarkodWeb.Entity.csproj", "{BBA935A6-F9D6-48BE-A62B-233459E75BDA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarkodWeb.Service", "..\BarkodWeb.Service\BarkodWeb.Service.csproj", "{B09FF3B1-DD68-4C2E-9140-C4C286E82BE0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3E2DDCC-447E-48D6-8587-6212FC315207}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3E2DDCC-447E-48D6-8587-6212FC315207}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3E2DDCC-447E-48D6-8587-6212FC315207}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3E2DDCC-447E-48D6-8587-6212FC315207}.Release|Any CPU.Build.0 = Release|Any CPU
+		{668D3840-04CB-4215-B383-9E8D30CBCC10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{668D3840-04CB-4215-B383-9E8D30CBCC10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{668D3840-04CB-4215-B383-9E8D30CBCC10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{668D3840-04CB-4215-B383-9E8D30CBCC10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBA1FF04-C5FC-443B-B56B-18B497DCC556}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBA1FF04-C5FC-443B-B56B-18B497DCC556}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBA1FF04-C5FC-443B-B56B-18B497DCC556}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBA1FF04-C5FC-443B-B56B-18B497DCC556}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBA935A6-F9D6-48BE-A62B-233459E75BDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBA935A6-F9D6-48BE-A62B-233459E75BDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBA935A6-F9D6-48BE-A62B-233459E75BDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBA935A6-F9D6-48BE-A62B-233459E75BDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B09FF3B1-DD68-4C2E-9140-C4C286E82BE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B09FF3B1-DD68-4C2E-9140-C4C286E82BE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B09FF3B1-DD68-4C2E-9140-C4C286E82BE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B09FF3B1-DD68-4C2E-9140-C4C286E82BE0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DDEAEB4D-860D-4F4C-B5F1-9EBB6D52396F}
+	EndGlobalSection
+EndGlobal

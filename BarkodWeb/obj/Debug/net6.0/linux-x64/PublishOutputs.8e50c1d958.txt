@@ -1,0 +1,8 @@
+C:\Users\aydog\Desktop\Yeni klasör\BarkodWeb\obj\Debug\net6.0\linux-x64\PubTmp\Out\appsettings.Development.json
+C:\Users\aydog\Desktop\Yeni klasör\BarkodWeb\obj\Debug\net6.0\linux-x64\PubTmp\Out\appsettings.json
+C:\Users\aydog\Desktop\Yeni klasör\BarkodWeb\obj\Debug\net6.0\linux-x64\PubTmp\Out\BarkodWeb.pdb
+C:\Users\aydog\Desktop\Yeni klasör\BarkodWeb\obj\Debug\net6.0\linux-x64\PubTmp\Out\BarkodWeb.Data.pdb
+C:\Users\aydog\Desktop\Yeni klasör\BarkodWeb\obj\Debug\net6.0\linux-x64\PubTmp\Out\BarkodWeb.Service.pdb
+C:\Users\aydog\Desktop\Yeni klasör\BarkodWeb\obj\Debug\net6.0\linux-x64\PubTmp\Out\BarkodWeb.Core.pdb
+C:\Users\aydog\Desktop\Yeni klasör\BarkodWeb\obj\Debug\net6.0\linux-x64\PubTmp\Out\BarkodWeb.Entity.pdb
+C:\Users\aydog\Desktop\Yeni klasör\BarkodWeb\obj\Debug\net6.0\linux-x64\PubTmp\Out\BarkodWeb

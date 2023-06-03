@@ -1,0 +1,15 @@
+C:\Users\aydog\Desktop\Yeni klasör\BarkodWeb.Entity\bin\Release\net6.0\linux-x64\BarkodWeb.Entity.deps.json
+C:\Users\aydog\Desktop\Yeni klasör\BarkodWeb.Entity\bin\Release\net6.0\linux-x64\BarkodWeb.Entity.dll
+C:\Users\aydog\Desktop\Yeni klasör\BarkodWeb.Entity\bin\Release\net6.0\linux-x64\BarkodWeb.Entity.pdb
+C:\Users\aydog\Desktop\Yeni klasör\BarkodWeb.Entity\bin\Release\net6.0\linux-x64\BarkodWeb.Core.dll
+C:\Users\aydog\Desktop\Yeni klasör\BarkodWeb.Entity\bin\Release\net6.0\linux-x64\BarkodWeb.Core.pdb
+C:\Users\aydog\Desktop\Yeni klasör\BarkodWeb.Entity\obj\Release\net6.0\linux-x64\BarkodWeb.Entity.csproj.AssemblyReference.cache
+C:\Users\aydog\Desktop\Yeni klasör\BarkodWeb.Entity\obj\Release\net6.0\linux-x64\BarkodWeb.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aydog\Desktop\Yeni klasör\BarkodWeb.Entity\obj\Release\net6.0\linux-x64\BarkodWeb.Entity.AssemblyInfoInputs.cache
+C:\Users\aydog\Desktop\Yeni klasör\BarkodWeb.Entity\obj\Release\net6.0\linux-x64\BarkodWeb.Entity.AssemblyInfo.cs
+C:\Users\aydog\Desktop\Yeni klasör\BarkodWeb.Entity\obj\Release\net6.0\linux-x64\BarkodWeb.Entity.csproj.CoreCompileInputs.cache
+C:\Users\aydog\Desktop\Yeni klasör\BarkodWeb.Entity\obj\Release\net6.0\linux-x64\BarkodWeb.Entity.csproj.CopyComplete
+C:\Users\aydog\Desktop\Yeni klasör\BarkodWeb.Entity\obj\Release\net6.0\linux-x64\BarkodWeb.Entity.dll
+C:\Users\aydog\Desktop\Yeni klasör\BarkodWeb.Entity\obj\Release\net6.0\linux-x64\refint\BarkodWeb.Entity.dll
+C:\Users\aydog\Desktop\Yeni klasör\BarkodWeb.Entity\obj\Release\net6.0\linux-x64\BarkodWeb.Entity.pdb
+C:\Users\aydog\Desktop\Yeni klasör\BarkodWeb.Entity\obj\Release\net6.0\linux-x64\ref\BarkodWeb.Entity.dll

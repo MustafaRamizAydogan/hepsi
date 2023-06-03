@@ -1,0 +1,535 @@
+﻿@using BarkodWeb.Entity.ViewModels.Sales;
+@model SaleAddViewModel
+
+<div class="container-xxl flex-grow-1 container-p-y">
+
+
+    <div class="card mb-4">
+
+
+        <div class="row">
+            <!-- Basic -->
+            <form method="post">
+                <div class="col-12">
+
+
+                    <div class="card-body mt-5">
+
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="border border-dark">
+                                    <div class="m-4">
+                                        <h3 class="text-center">Satış Yap</h3>
+
+                                        <div class="form-floating my-3">
+                                            <input asp-for="Barkod" type="text" class="barkod form-control" id="floatingInput" placeholder="John Doe" aria-describedby="floatingInputHelp">
+                                            <label for="floatingInput">Barkod</label>
+                                        </div>
+
+
+
+
+
+
+
+                                        <div class="row mx-3 mt-4 mb-2">
+
+                                            <div class="col-lg-6">
+
+
+
+
+
+                                                <div class="input-group mb-3">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text" id="inputGroup-sizing-default">Gram</span>
+                                                    </div>
+                                                    <input asp-for="Gram" type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+                                                </div>
+
+
+                                            </div>
+
+
+
+                                            <div class="col-lg-6">
+
+
+                                                <div class="input-group mb-3">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text" id="inputGroup-sizing-default">Adet</span>
+                                                    </div>
+                                                    <input asp-for="SatılanStok" type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+                                                </div>
+
+
+                                            </div>
+
+
+
+
+
+
+                                        </div>
+
+
+                                        <div class="row">
+
+                                            <div class="col-lg-3"></div>
+
+                                            <div class="col-lg-6">
+                                                <div class="my-3   text-center rounded ">
+                                                    <label class="" style="font-size : 1.5rem" for="floatingInput">Fiyatı</label>
+
+                                                    <input asp-for="Hasılat" style=" font-size : 1.5rem; " class="fiyat form-control " type="text" placeholder="Fiyatını giriniz.">
+
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-3"></div>
+
+
+                                        </div>
+
+
+                                        <div class="row">
+
+                                            <div class="col-lg-2"></div>
+                                            <div class="col-lg-3 text-center">
+                                                <div class="btn-group p-2">
+                                                    <button asp-action="Nakit" asp-controller="Sales" style="font-size:2rem;" type="submit" class="btn btn-outline-success btn-block ">NAKİT</button>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="col-lg-1"></div>
+                                            <div class="col-lg-4  text-center">
+                                                <div class="btn-group p-2 ">
+                                                    <button asp-action="Kart" asp-controller="Sales" style=" font-size : 2rem; " type="submit" class="btn btn-outline-warning btn-block ">Kart </button>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-2"></div>
+
+                                        </div>
+
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+
+
+
+
+
+                                <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                                    <div class="modal-dialog modal-dialog-centered">
+
+                                        <div class="modal-content border border-primary d-flex align-items-center justify-content-center">
+                                            <div class="modal-header border-bottom border-dark">
+                                                <h5 class="modal-title" id="exampleModalToggleLabel">Ana Grup</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body  ">
+
+
+                                                @*Ana Grup Kısmı*@
+                                                <div class="row">
+                                                    @foreach (var item in ViewBag.main)
+                                                    {
+                                                        <div class="col-lg-6 d-flex align-items-center justify-content-center">  <button class="maingroup btn btn-primary mx-2 my-2 btn-lg " value="@item.Id" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">@item.AnaGrup</button></div>
+                                                    }
+
+
+                                                </div>
+
+
+
+
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content border border-primary d-flex align-items-center justify-content-center">
+                                            <div class="modal-header border-bottom border-dark ">
+                                                <h5 class="modal-title" id="exampleModalToggleLabel2">Alt Grup</h5>
+                                                <button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body ">
+
+
+
+
+
+                                                <div class="row  LowerGroupAjax">
+                                                    @*alt gruplar ajax ile işlem yapılıyor*@
+                                                </div>
+
+
+
+                                            </div>
+                                            <div class="modal-footer border-top border-dark d-flex align-items-center justify-content-center">
+                                                <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">Geri Dön</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                                <div class="modal fade" id="exampleModalToggle3" aria-hidden="true" aria-labelledby="exampleModalToggleLabel3" tabindex="-1">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content border border-primary d-flex align-items-center justify-content-center">
+                                            <div class="modal-header border-bottom border-dark">
+                                                <h5 class="modal-title" id="exampleModalToggleLabel3">Ürünler</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+
+
+
+
+
+                                                @*ürünler kısmı*@
+                                                @*ajax ile gönderilecek yer burası*@
+                                                <div class="row stocksAjax">
+                                                </div>
+
+
+
+
+
+
+
+
+
+
+                                            </div>
+                                            <div class="modal-footer  border-top border-dark d-flex align-items-center justify-content-center">
+                                                <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Geri Dön</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                                <img class="mh-100 mw-100  px-5 py-3" src="~/satısyap.jpg" data-bs-toggle="modal" href="#exampleModalToggle" role="button"></img>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            </div>
+
+
+                        </div>
+
+
+
+
+                    </div>
+
+
+                </div>
+
+
+
+            </form>
+
+
+
+
+
+
+
+
+
+
+            <!-- listeleme -->
+            <div class="col-12 ">
+
+
+
+                <div class="card-body ">
+
+                    <h3 class="text-center">Satış Listesi</h3>
+
+                    <div class="row">
+                        <div class="table-responsive" id="eklenen_div_scroll" style="font-size:12px;height:600px;overflow-y:scroll;margin:0px;" align="left" valign="top">
+                            <table class="table table-striped table-bordered table-hover " id="datatable-responsive">
+
+
+                                <thead>
+                                    <tr>
+                                        <th class="bg-danger" style="width: 110px; position:sticky; top: 0 ; ">
+
+                                            <input class="form-control " type="search" placeholder="BARKOD" id="html5-search-input">
+
+                                        </th>
+                                        <th class="bg-secondary  text-white text-center" style="width: 5px;position:sticky; top: 0 ; "> STOK </th>
+                                        <th class="bg-dark  text-white  text-center" style="width: 5px; position:sticky; top: 0 ; "> GRAM </th>
+
+
+                                        <th class="bg-secondary  text-white text-center" style="width: 10px;position:sticky; top: 0 ; "> FİYAT </th>
+                                        <th class="bg-dark  text-white   text-center" style="width: 100px; position:sticky; top: 0 ; "> ALT GRUP </th>
+
+                                        <th class="bg-secondary  text-white text-center" style="width: 50px; position:sticky; top: 0 ; "> TARİH </th>
+                                        <th class="bg-dark  text-white  text-center" style="width: 30px; position:sticky; top: 0 ; "> N/K </th>
+                                        <th class="bg-danger text-white  text-center" style="width: 10px; position:sticky; top: 0 ; "> İŞLEM </th>
+
+
+
+
+
+
+                                    </tr>
+                                </thead>
+
+
+                                <tbody>
+
+                                    @foreach (var sale in ViewBag.sales)
+                                    {
+
+
+                                        <tr>
+                                            <td>@sale.Barkod</td>
+                                            <td>@sale.SatılanStok</td>
+                                            <td>@sale.Gram</td>
+
+                                            <td>@sale.Hasılat</td>
+
+                                            <td>@sale.LowerGroup.AltGrup</td>
+                                            <td>@sale.SatisTarih</td>
+                                            <td>@sale.OdemeTuru</td>
+                                            <td>
+                                                <div class="row">
+
+                                                    <div class="col-6">
+
+                                                        <form asp-action="Delete" asp-controller="Product" method="post">
+
+                                                            <a data-itemid="@sale.Id" asp-controller="Sales" asp-action="Delete" asp-route-SaleId="@sale.Id" class="menu-link" title="Silme İşlemi">
+
+                                                                <i class="menu-icon tf-icons bx bxs-folder-minus bx-burst-hover"></i>
+
+                                                            </a>
+
+                                                        </form>
+                                                    </div>
+
+
+                                                </div>
+
+
+
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+
+
+
+
+
+
+                            </table>
+                        </div>
+
+                    </div>
+
+
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+@section Scripts{
+
+    <script>
+
+
+
+        $(".barkod").on("keyup", function () {
+
+            var _data = $(".barkod").val();
+
+            $(".fiyat").val("");
+
+            $.ajax({
+                type: 'GET',
+                url: '/Product/HasProduct',
+                data: { Barkod: _data },
+
+
+                success: function (stocks) {
+
+
+                    $(".fiyat").val(stocks);
+
+
+                },
+
+
+            });
+
+
+
+        });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        $(".maingroup").on("click", function (e) {
+
+            var _data = $(this).val();
+
+
+
+            //burası degişecek
+
+            $.ajax({
+                type: "GET",
+                url: "/Product/MainToLower",
+                data: { id: _data },
+                success: function (lower) {
+                    var s = ' ';
+                    for (var i = 0; i < lower.length; i++) {
+                        console.log(lower[i])
+                        s += '<div class="col-lg-6 d-flex align-items-center justify-content-center" > <button class="lowergroup btn btn-primary mx-2 my-2 btn-lg" data-bs-target="#exampleModalToggle3" data-bs-toggle="modal" data-bs-dismiss="modal" value="' + lower[i].id + '">' + lower[i].altGrup + '</button></div>';
+                    }
+                    $(".LowerGroupAjax").html(s);
+
+                    //lower group için
+
+                    $(".lowergroup").on("click", function (e) {
+
+                        var _data = $(this).val();
+
+
+
+
+
+                        $.ajax({
+                            type: "GET",
+                            url: "/Product/LowerToStocks",
+                            data: { id: _data },
+                            success: function (stocks) {
+                                var s = ' ';
+                                for (var i = 0; i < stocks.length; i++) {
+                                    console.log(stocks[i])
+                                    s += '<div class="col-lg-6 d-flex align-items-center justify-content-center" > <button class="stockajax btn btn-primary mx-2 my-2 btn-lg" data-bs-target="#exampleModalToggle3" data-bs-toggle="modal" data-bs-dismiss="modal" value="' + stocks[i].id + '">' + stocks[i].barkod + '</button></div>';
+                                }
+                                $(".stocksAjax").html(s);
+
+
+                                $(".stockajax").on("click", function (e) {
+
+                                    var stockname = $(this).html();
+
+                                    $('.barkod').val(stockname);
+
+
+
+                                });
+
+                            }
+
+
+                        });
+
+
+
+                    });
+                }
+
+
+            });
+
+
+
+        });
+
+
+
+
+
+
+
+    </script>
+
+}
+
+
+
+
+
+
+

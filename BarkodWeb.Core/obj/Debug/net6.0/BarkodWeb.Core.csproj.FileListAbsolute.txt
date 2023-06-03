@@ -1,0 +1,24 @@
+C:\Users\aydog\OneDrive\Masaüstü\BarkodWeb.Core\bin\Debug\net6.0\BarkodWeb.Core.deps.json
+C:\Users\aydog\OneDrive\Masaüstü\BarkodWeb.Core\bin\Debug\net6.0\BarkodWeb.Core.dll
+C:\Users\aydog\OneDrive\Masaüstü\BarkodWeb.Core\bin\Debug\net6.0\BarkodWeb.Core.pdb
+C:\Users\aydog\OneDrive\Masaüstü\BarkodWeb.Core\obj\Debug\net6.0\BarkodWeb.Core.csproj.AssemblyReference.cache
+C:\Users\aydog\OneDrive\Masaüstü\BarkodWeb.Core\obj\Debug\net6.0\BarkodWeb.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aydog\OneDrive\Masaüstü\BarkodWeb.Core\obj\Debug\net6.0\BarkodWeb.Core.AssemblyInfoInputs.cache
+C:\Users\aydog\OneDrive\Masaüstü\BarkodWeb.Core\obj\Debug\net6.0\BarkodWeb.Core.AssemblyInfo.cs
+C:\Users\aydog\OneDrive\Masaüstü\BarkodWeb.Core\obj\Debug\net6.0\BarkodWeb.Core.csproj.CoreCompileInputs.cache
+C:\Users\aydog\OneDrive\Masaüstü\BarkodWeb.Core\obj\Debug\net6.0\BarkodWeb.Core.dll
+C:\Users\aydog\OneDrive\Masaüstü\BarkodWeb.Core\obj\Debug\net6.0\refint\BarkodWeb.Core.dll
+C:\Users\aydog\OneDrive\Masaüstü\BarkodWeb.Core\obj\Debug\net6.0\BarkodWeb.Core.pdb
+C:\Users\aydog\OneDrive\Masaüstü\BarkodWeb.Core\obj\Debug\net6.0\ref\BarkodWeb.Core.dll
+C:\Users\aydog\Desktop\Yeni klasör\BarkodWeb.Core\bin\Debug\net6.0\BarkodWeb.Core.deps.json
+C:\Users\aydog\Desktop\Yeni klasör\BarkodWeb.Core\bin\Debug\net6.0\BarkodWeb.Core.dll
+C:\Users\aydog\Desktop\Yeni klasör\BarkodWeb.Core\bin\Debug\net6.0\BarkodWeb.Core.pdb
+C:\Users\aydog\Desktop\Yeni klasör\BarkodWeb.Core\obj\Debug\net6.0\BarkodWeb.Core.csproj.AssemblyReference.cache
+C:\Users\aydog\Desktop\Yeni klasör\BarkodWeb.Core\obj\Debug\net6.0\BarkodWeb.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aydog\Desktop\Yeni klasör\BarkodWeb.Core\obj\Debug\net6.0\BarkodWeb.Core.AssemblyInfoInputs.cache
+C:\Users\aydog\Desktop\Yeni klasör\BarkodWeb.Core\obj\Debug\net6.0\BarkodWeb.Core.AssemblyInfo.cs
+C:\Users\aydog\Desktop\Yeni klasör\BarkodWeb.Core\obj\Debug\net6.0\BarkodWeb.Core.csproj.CoreCompileInputs.cache
+C:\Users\aydog\Desktop\Yeni klasör\BarkodWeb.Core\obj\Debug\net6.0\BarkodWeb.Core.dll
+C:\Users\aydog\Desktop\Yeni klasör\BarkodWeb.Core\obj\Debug\net6.0\refint\BarkodWeb.Core.dll
+C:\Users\aydog\Desktop\Yeni klasör\BarkodWeb.Core\obj\Debug\net6.0\BarkodWeb.Core.pdb
+C:\Users\aydog\Desktop\Yeni klasör\BarkodWeb.Core\obj\Debug\net6.0\ref\BarkodWeb.Core.dll

@@ -1,0 +1,16 @@
+C:\Users\aydog\Desktop\Yeni klasör (6)\BarkodWeb.Entity.dll
+C:\Users\aydog\Desktop\Yeni klasör (6)\BarkodWeb.Entity.deps.json
+C:\Users\aydog\Desktop\Yeni klasör (6)\BarkodWeb.Entity.pdb
+C:\Users\aydog\Desktop\Yeni klasör (6)\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\aydog\Desktop\Yeni klasör (6)\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\aydog\Desktop\Yeni klasör (6)\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\aydog\Desktop\Yeni klasör (6)\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\aydog\Desktop\Yeni klasör (6)\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\aydog\Desktop\Yeni klasör (6)\Microsoft.Extensions.Identity.Core.dll
+C:\Users\aydog\Desktop\Yeni klasör (6)\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\aydog\Desktop\Yeni klasör (6)\Microsoft.Extensions.Logging.dll
+C:\Users\aydog\Desktop\Yeni klasör (6)\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\aydog\Desktop\Yeni klasör (6)\Microsoft.Extensions.Options.dll
+C:\Users\aydog\Desktop\Yeni klasör (6)\Microsoft.Extensions.Primitives.dll
+C:\Users\aydog\Desktop\Yeni klasör (6)\BarkodWeb.Core.dll
+C:\Users\aydog\Desktop\Yeni klasör (6)\BarkodWeb.Core.pdb

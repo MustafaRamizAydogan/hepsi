@@ -1,0 +1,3 @@
+C:\Users\aydog\Desktop\Yeni klasör (5)\BarkodWeb.Core.dll
+C:\Users\aydog\Desktop\Yeni klasör (5)\BarkodWeb.Core.deps.json
+C:\Users\aydog\Desktop\Yeni klasör (5)\BarkodWeb.Core.pdb

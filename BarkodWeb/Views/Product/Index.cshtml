@@ -1,0 +1,335 @@
+﻿@using BarkodWeb.Entity.ViewModels.Stocks;
+@model StockAddViewModel
+
+
+<div class="container-xxl flex-grow-1 container-p-y">
+
+    <div asp-validation-summary="ModelOnly"></div>
+
+    <form asp-action="Index" asp-controller="Product" method="post">
+
+        <div class="card mb-4">
+            <h3 class="card-header text-center">Ürün Ekle</h3>
+
+            <div class="row">
+
+
+
+
+
+                <div class="col-lg-6">
+
+
+                    <div class="row">
+                        <!-- Basic -->
+                        <div class="col-md-6">
+
+
+                            <div class="card-body">
+
+                                <div class="row">
+
+                                    <div class="col-lg-10">
+
+                                        <div class="form-floating mt-3">
+                                            <input asp-for="Barkod" type="text" id="Barkod" class="border border-primary border-5 form-control" aria-describedby="floatingInputHelp">
+                                            <label for="floatingInput">Barkod</label>
+                                            <span class="text-danger" asp-validation-for="Barkod"></span>
+                                        </div>
+
+
+                                    </div>
+                                    <div class="col-lg-2 ">
+                                    </div>
+
+                                </div>
+
+
+
+
+
+                                <div class="row my-4">
+
+                                    <div class="col-3">
+                                        <label class="" for="floatingInput">Türü</label>
+                                        <select asp-for="ParaKuru" class="form-select" id="inputGroupSelect03" aria-label="Example select with button addon">
+
+                                            <option value="1">Dolar</option>
+                                            <option value="2">Tl</option>
+
+                                        </select>
+                                    </div>
+                                    <div class="col-9">
+                                        <label class="" for="floatingInput">Alış Fiyatı</label>
+
+                                        <input asp-for="AlisFiyat" class="form-control" type="text" placeholder="Alış Fiyatını giriniz.">
+                                        <span asp-validation-for="AlisFiyat"></span>
+                                    </div>
+
+
+                                </div>
+
+
+                                <div class="row">
+
+                                    <div class="col-3">
+                                        <label for="floatingInput">Türü</label>
+                                        <select class="form-select" id="inputGroupSelect03" aria-label="Example select with button addon">
+
+                                            <option value="1">Dolar</option>
+                                            <option value="2">Tl</option>
+
+                                        </select>
+                                    </div>
+                                    <div class="col-9">
+                                        <label for="floatingInput">Satış Fiyatı</label>
+
+                                        <input asp-for="SatisFiyat" class="form-control" type="text" placeholder="Satış Fiyatını giriniz.">
+                                        <span asp-validation-for="SatisFiyat"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Merged -->
+                        <div class="col-md-6">
+                            <div class="card-body">
+
+                                <div class="mb-3">
+                                    <label for="defaultSelect" class="form-label">Ürün Birimi</label>
+                                    <select asp-for="UrunBirimi" id="defaultSelect" class="form-select">
+
+                                        <option value="1">Gram</option>
+                                        <option value="2">Adet</option>
+
+                                    </select>
+                                </div>
+
+                                <div class="my-3">
+                                    <label for="defaultInput" class="form-label">Adet</label>
+                                    <input asp-for="Stok" class="form-control" type="text" placeholder="Adet giriniz.">
+                                    <span class="text-danger" asp-validation-for="Stok"></span>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="defaultInput" class="form-label">Gram</label>
+                                    <input asp-for="Gram" class="form-control" type="text" placeholder="Gram giriniz.">
+                                    <span class="text-danger" asp-validation-for="Gram"></span>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+            <div class="col-lg-6"></div>
+
+
+
+        </div>
+
+
+
+
+
+
+
+        <div class="row">
+
+
+            <div class="col">
+                <div class="card">
+
+
+                    <div class="card-body">
+
+                        <div class="row">
+
+
+
+                            <div class="col-8">
+                                <label for="largeSelect" class="form-label mb-0">Ana Grup</label>
+                                <select id="largeSelect" class="form-select form-select-lg" asp-for="MainGroupId" asp-items="@(new SelectList(Model.MainGroups,"Id","AnaGrup"))">
+                                </select>
+                            </div>
+
+                            <div class="col-4">
+                                <div class=" input-group mt-4">
+                                    <input asp-for="AnaGrup" type="text" class="form-control" placeholder="Ana Grup..." aria-label="Recipient's username" aria-describedby="button-addon2">
+
+                                    <button asp-action="AddMainGroup" asp-controller="Product" class="btn btn-outline-primary" type="submit" id="button-addon2">Ekle</button>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        <div class="row my-3">
+
+
+
+                            <div class="col-8">
+                                <div class="mb-3">
+                                    <label for="LowerGroup" class="form-label mb-0">Alt Grup</label>
+
+                                    <select id="LowerGroup" class="form-select form-select-lg" asp-for="LowerGroupId">
+                                    </select>
+
+                                </div>
+
+                            </div>
+                            <div class="col-4">
+
+
+
+
+                                <div class="input-group mt-4">
+                                    <input asp-for="AltGrup" type="text" class="form-control" placeholder="Alt Grup..." aria-label="Recipient's username" aria-describedby="button-addon2">
+                                    <button asp-action="AddLowerGroup" asp-controller="Product" class="btn btn-outline-primary" type="submit" id="button-addon2">Ekle</button>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="row">
+
+                            <button class="btn btn-primary btn-lg" asp-action="Index" asp-controller="Product" type="submit">Kaydet</button>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+
+
+
+
+
+
+
+
+
+@section Scripts{
+
+    <script>
+
+        $(document).ready(function () {
+            $("#onay").hide();
+            $("#carpı").hide();
+        });
+
+
+
+
+        $("#Barkod").on("keyup", function () {
+
+            var _data = $("#Barkod").val();
+
+
+            $.ajax({
+                type: 'GET',
+                url: '/Product/HasProductName',
+                data: { Barkod: _data },
+
+                dataType: "text",
+                success: function (r) {
+
+                    if (r != "true") {
+
+                        $("#Barkod").removeClass("border-primary border-success").addClass("border-danger");
+
+                    }
+                    else {
+
+
+                        $("#Barkod").removeClass("border-primary border-danger ").addClass("border-success");
+
+
+                    }
+
+                },
+                error: function (req, status, error) {
+                    alert(status);
+                }
+
+            });
+
+
+
+        });
+
+
+
+
+
+
+        $("#largeSelect").on("change", function () {
+
+            var _data = $("#largeSelect").val();
+
+
+
+
+            $.ajax({
+                type: "GET",
+                url: "/Product/MainToLower",
+                data: { id: _data },
+                success: function (lower) {
+                    var s = '<option value="-1">Alt Grup Seçiniz</option>';
+                    for (var i = 0; i < lower.length; i++) {
+                        console.log(lower[i])
+                        s += '<option value="' + lower[i].id + '">' + lower[i].altGrup + '</option>';
+                    }
+                    $("#LowerGroup").html(s);
+                }
+
+
+            });
+
+
+
+
+        });
+
+
+
+
+
+
+    </script>
+
+}

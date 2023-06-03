@@ -1,0 +1,30 @@
+C:\Users\aydog\OneDrive\Masaüstü\BarkodWeb.Entity\bin\Debug\net6.0\BarkodWeb.Entity.deps.json
+C:\Users\aydog\OneDrive\Masaüstü\BarkodWeb.Entity\bin\Debug\net6.0\BarkodWeb.Entity.dll
+C:\Users\aydog\OneDrive\Masaüstü\BarkodWeb.Entity\bin\Debug\net6.0\BarkodWeb.Entity.pdb
+C:\Users\aydog\OneDrive\Masaüstü\BarkodWeb.Entity\bin\Debug\net6.0\BarkodWeb.Core.dll
+C:\Users\aydog\OneDrive\Masaüstü\BarkodWeb.Entity\bin\Debug\net6.0\BarkodWeb.Core.pdb
+C:\Users\aydog\OneDrive\Masaüstü\BarkodWeb.Entity\obj\Debug\net6.0\BarkodWeb.Entity.csproj.AssemblyReference.cache
+C:\Users\aydog\OneDrive\Masaüstü\BarkodWeb.Entity\obj\Debug\net6.0\BarkodWeb.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aydog\OneDrive\Masaüstü\BarkodWeb.Entity\obj\Debug\net6.0\BarkodWeb.Entity.AssemblyInfoInputs.cache
+C:\Users\aydog\OneDrive\Masaüstü\BarkodWeb.Entity\obj\Debug\net6.0\BarkodWeb.Entity.AssemblyInfo.cs
+C:\Users\aydog\OneDrive\Masaüstü\BarkodWeb.Entity\obj\Debug\net6.0\BarkodWeb.Entity.csproj.CoreCompileInputs.cache
+C:\Users\aydog\OneDrive\Masaüstü\BarkodWeb.Entity\obj\Debug\net6.0\BarkodWeb.Entity.csproj.CopyComplete
+C:\Users\aydog\OneDrive\Masaüstü\BarkodWeb.Entity\obj\Debug\net6.0\BarkodWeb.Entity.dll
+C:\Users\aydog\OneDrive\Masaüstü\BarkodWeb.Entity\obj\Debug\net6.0\refint\BarkodWeb.Entity.dll
+C:\Users\aydog\OneDrive\Masaüstü\BarkodWeb.Entity\obj\Debug\net6.0\BarkodWeb.Entity.pdb
+C:\Users\aydog\OneDrive\Masaüstü\BarkodWeb.Entity\obj\Debug\net6.0\ref\BarkodWeb.Entity.dll
+C:\Users\aydog\Desktop\Yeni klasör\BarkodWeb.Entity\bin\Debug\net6.0\BarkodWeb.Entity.deps.json
+C:\Users\aydog\Desktop\Yeni klasör\BarkodWeb.Entity\bin\Debug\net6.0\BarkodWeb.Entity.dll
+C:\Users\aydog\Desktop\Yeni klasör\BarkodWeb.Entity\bin\Debug\net6.0\BarkodWeb.Entity.pdb
+C:\Users\aydog\Desktop\Yeni klasör\BarkodWeb.Entity\bin\Debug\net6.0\BarkodWeb.Core.dll
+C:\Users\aydog\Desktop\Yeni klasör\BarkodWeb.Entity\bin\Debug\net6.0\BarkodWeb.Core.pdb
+C:\Users\aydog\Desktop\Yeni klasör\BarkodWeb.Entity\obj\Debug\net6.0\BarkodWeb.Entity.csproj.AssemblyReference.cache
+C:\Users\aydog\Desktop\Yeni klasör\BarkodWeb.Entity\obj\Debug\net6.0\BarkodWeb.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aydog\Desktop\Yeni klasör\BarkodWeb.Entity\obj\Debug\net6.0\BarkodWeb.Entity.AssemblyInfoInputs.cache
+C:\Users\aydog\Desktop\Yeni klasör\BarkodWeb.Entity\obj\Debug\net6.0\BarkodWeb.Entity.AssemblyInfo.cs
+C:\Users\aydog\Desktop\Yeni klasör\BarkodWeb.Entity\obj\Debug\net6.0\BarkodWeb.Entity.csproj.CoreCompileInputs.cache
+C:\Users\aydog\Desktop\Yeni klasör\BarkodWeb.Entity\obj\Debug\net6.0\BarkodWeb.Entity.csproj.CopyComplete
+C:\Users\aydog\Desktop\Yeni klasör\BarkodWeb.Entity\obj\Debug\net6.0\BarkodWeb.Entity.dll
+C:\Users\aydog\Desktop\Yeni klasör\BarkodWeb.Entity\obj\Debug\net6.0\refint\BarkodWeb.Entity.dll
+C:\Users\aydog\Desktop\Yeni klasör\BarkodWeb.Entity\obj\Debug\net6.0\BarkodWeb.Entity.pdb
+C:\Users\aydog\Desktop\Yeni klasör\BarkodWeb.Entity\obj\Debug\net6.0\ref\BarkodWeb.Entity.dll

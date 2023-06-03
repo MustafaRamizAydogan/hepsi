@@ -1,0 +1,114 @@
+﻿@using BarkodWeb.Entity.ViewModels.Users;
+
+@model UserAddViewModel
+
+
+<div class="container-xxl flex-grow-1 container-p-y ">
+
+    <div class="card mb-4 ">
+        <h3 class="card-header text-center">Ürün Ekleme ve Güncelleme</h3>
+
+
+        <form asp-action="UserAdd" asp-controller="User" method="post">
+            <div asp-validation-summary="All"></div>
+
+
+
+            <div class="card-body ">
+
+                <div class="form-floating mt-3">
+                    <input asp-for="Email" type="text" class="form-control" id="floatingInput" aria-describedby="floatingInputHelp">
+                    <label for="floatingInput">Email</label>
+
+                </div>
+
+                <div class="form-floating mt-3">
+                    <input asp-for="Name" type="text" class="form-control" id="floatingInput" aria-describedby="floatingInputHelp">
+                    <label for="floatingInput">Adı</label>
+
+                </div>
+
+                <div class="form-floating mt-3">
+                    <input asp-for="LastName" type="text" class="form-control" id="floatingInput" aria-describedby="floatingInputHelp">
+                    <label for="floatingInput">Soyisim</label>
+
+                </div>
+
+                <div class="form-floating mt-3">
+                    <input asp-for="Password" type="password" class="form-control" id="floatingInput" aria-describedby="floatingInputHelp">
+                    <label for="floatingInput">Şifre</label>
+
+                </div>
+
+
+
+
+                <div class="col">
+                    <label for="largeSelect" class="form-label mb-0">Mağaza seçiniz</label>
+                    <select id="largeSelect" class="form-select form-select-lg" asp-for="ShopId" asp-items="@(new SelectList(Model.shops,"Id","Adı"))"></select>
+                </div>
+
+
+
+
+                <div class="mb-3">
+                    <label for="defaultSelect" class="form-label mb-0">Role Seciniz</label>
+
+                    <select id="defaultSelect" class="form-select form-select-lg" asp-for="RoleId" asp-items="@(new SelectList(Model.appRoles,"Id","Name"))"></select>
+
+                </div>
+
+
+
+                <button class="btn btn-primary btn-lg" asp-action="UserAdd" asp-controller="User" type="submit">Ekle</button>
+
+
+            </div>
+
+
+
+
+        </form>
+
+
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
