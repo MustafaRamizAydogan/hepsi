@@ -12,23 +12,7 @@ namespace BarkodWeb.Service.FluentValidations
     {
         public StockValidator()
         {
-            RuleFor(x => x.Barkod)
-                .NotEmpty()
-                .NotNull()
-                .MinimumLength(3)
-                .MaximumLength(30)
-                .WithName("Barkod");
-            RuleFor(x => x.SatisFiyat)
-                  .NotEmpty()
-                .NotNull()
-                .GreaterThan(y => y.AlisFiyat);
-            RuleFor(x => x.AlisFiyat)
-                .NotEmpty()
-                .NotNull();
-            RuleFor(x => x.Stok)
-              .NotEmpty()
-              .NotNull();
-
+            
 
 
         }
