@@ -48,12 +48,7 @@ namespace BarkodWeb.Controllers.Product
         public async Task<IActionResult> Index()
         {
 
-            //---------LOWER VE MAİN GROUP GETİRME--------
-
-            var lower = await lowerGroupService.GetAllLowerGroup();
-            var main = await mainGroupService.GetAllMainGroups();
-
-
+         
 
             return View(new StockAddViewModel { lowerGroups = lower, MainGroups = main });
         }

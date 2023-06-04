@@ -8,23 +8,23 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\aydog\\.nuget\\packages\\": {},
+    "C:\\Users\\ARIBILGI\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aydog\\Desktop\\Yeni klasör\\BarkodWeb.Core\\BarkodWeb.Core.csproj",
+      "projectUniqueName": "C:\\Users\\ARIBILGI\\Yeni\\BarkodWeb.Core\\BarkodWeb.Core.csproj",
       "projectName": "BarkodWeb.Core",
-      "projectPath": "C:\\Users\\aydog\\Desktop\\Yeni klasör\\BarkodWeb.Core\\BarkodWeb.Core.csproj",
-      "packagesPath": "C:\\Users\\aydog\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aydog\\Desktop\\Yeni klasör\\BarkodWeb.Core\\obj\\",
+      "projectPath": "C:\\Users\\ARIBILGI\\Yeni\\BarkodWeb.Core\\BarkodWeb.Core.csproj",
+      "packagesPath": "C:\\Users\\ARIBILGI\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ARIBILGI\\Yeni\\BarkodWeb.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\aydog\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ARIBILGI\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -33,7 +33,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

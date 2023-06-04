@@ -9,113 +9,113 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BarkodWeb
 build_property.RootNamespace = BarkodWeb
-build_property.ProjectDir = C:\Users\aydog\Desktop\Yeni klasör\BarkodWeb\
+build_property.ProjectDir = C:\Users\ARIBILGI\Yeni\BarkodWeb\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
-build_property.MSBuildProjectDirectory = C:\Users\aydog\Desktop\Yeni klasör\BarkodWeb
+build_property.MSBuildProjectDirectory = C:\Users\ARIBILGI\Yeni\BarkodWeb
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/aydog/Desktop/Yeni klasör/BarkodWeb/Areas/Ana/Views/Anasayfa/Basarisiz.cshtml]
+[C:/Users/ARIBILGI/Yeni/BarkodWeb/Areas/Ana/Views/Anasayfa/Basarisiz.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQW5hXFZpZXdzXEFuYXNheWZhXEJhc2FyaXNpei5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aydog/Desktop/Yeni klasör/BarkodWeb/Areas/Ana/Views/Anasayfa/Index.cshtml]
+[C:/Users/ARIBILGI/Yeni/BarkodWeb/Areas/Ana/Views/Anasayfa/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQW5hXFZpZXdzXEFuYXNheWZhXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aydog/Desktop/Yeni klasör/BarkodWeb/Areas/Ana/Views/Giris/Index.cshtml]
+[C:/Users/ARIBILGI/Yeni/BarkodWeb/Areas/Ana/Views/Giris/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQW5hXFZpZXdzXEdpcmlzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aydog/Desktop/Yeni klasör/BarkodWeb/Areas/Ana/Views/Giris/UyeOl.cshtml]
+[C:/Users/ARIBILGI/Yeni/BarkodWeb/Areas/Ana/Views/Giris/UyeOl.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQW5hXFZpZXdzXEdpcmlzXFV5ZU9sLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aydog/Desktop/Yeni klasör/BarkodWeb/Areas/Ana/Views/Shared/_Layout.cshtml]
+[C:/Users/ARIBILGI/Yeni/BarkodWeb/Areas/Ana/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQW5hXFZpZXdzXFNoYXJlZFxfTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aydog/Desktop/Yeni klasör/BarkodWeb/Areas/Ana/Views/Shared/_LayoutLogin.cshtml]
+[C:/Users/ARIBILGI/Yeni/BarkodWeb/Areas/Ana/Views/Shared/_LayoutLogin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQW5hXFZpZXdzXFNoYXJlZFxfTGF5b3V0TG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aydog/Desktop/Yeni klasör/BarkodWeb/Areas/Ana/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/ARIBILGI/Yeni/BarkodWeb/Areas/Ana/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQW5hXFZpZXdzXFNoYXJlZFxfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aydog/Desktop/Yeni klasör/BarkodWeb/Areas/Ana/Views/_ViewImports.cshtml]
+[C:/Users/ARIBILGI/Yeni/BarkodWeb/Areas/Ana/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQW5hXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aydog/Desktop/Yeni klasör/BarkodWeb/Areas/Ana/Views/_ViewStart.cshtml]
+[C:/Users/ARIBILGI/Yeni/BarkodWeb/Areas/Ana/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQW5hXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aydog/Desktop/Yeni klasör/BarkodWeb/Views/Home/Index.cshtml]
+[C:/Users/ARIBILGI/Yeni/BarkodWeb/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aydog/Desktop/Yeni klasör/BarkodWeb/Views/Product/Index.cshtml]
+[C:/Users/ARIBILGI/Yeni/BarkodWeb/Views/Product/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aydog/Desktop/Yeni klasör/BarkodWeb/Views/Product/Listele.cshtml]
+[C:/Users/ARIBILGI/Yeni/BarkodWeb/Views/Product/Listele.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxMaXN0ZWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aydog/Desktop/Yeni klasör/BarkodWeb/Views/Product/Update.cshtml]
+[C:/Users/ARIBILGI/Yeni/BarkodWeb/Views/Product/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aydog/Desktop/Yeni klasör/BarkodWeb/Views/Repair/Index.cshtml]
+[C:/Users/ARIBILGI/Yeni/BarkodWeb/Views/Repair/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwYWlyXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aydog/Desktop/Yeni klasör/BarkodWeb/Views/Repair/Listele.cshtml]
+[C:/Users/ARIBILGI/Yeni/BarkodWeb/Views/Repair/Listele.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwYWlyXExpc3RlbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aydog/Desktop/Yeni klasör/BarkodWeb/Views/Sales/Index.cshtml]
+[C:/Users/ARIBILGI/Yeni/BarkodWeb/Views/Sales/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aydog/Desktop/Yeni klasör/BarkodWeb/Views/Setting/ShopAdd.cshtml]
+[C:/Users/ARIBILGI/Yeni/BarkodWeb/Views/Setting/ShopAdd.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2V0dGluZ1xTaG9wQWRkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aydog/Desktop/Yeni klasör/BarkodWeb/Views/Shared/Components/UserToShop/Default.cshtml]
+[C:/Users/ARIBILGI/Yeni/BarkodWeb/Views/Shared/Components/UserToShop/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcVXNlclRvU2hvcFxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aydog/Desktop/Yeni klasör/BarkodWeb/Views/Shared/Error.cshtml]
+[C:/Users/ARIBILGI/Yeni/BarkodWeb/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aydog/Desktop/Yeni klasör/BarkodWeb/Views/Shared/_PartialUpdate.cshtml]
+[C:/Users/ARIBILGI/Yeni/BarkodWeb/Views/Shared/_PartialUpdate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYXJ0aWFsVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aydog/Desktop/Yeni klasör/BarkodWeb/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/ARIBILGI/Yeni/BarkodWeb/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aydog/Desktop/Yeni klasör/BarkodWeb/Views/User/UserAdd.cshtml]
+[C:/Users/ARIBILGI/Yeni/BarkodWeb/Views/User/UserAdd.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVc2VyQWRkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aydog/Desktop/Yeni klasör/BarkodWeb/Views/User/UserListele.cshtml]
+[C:/Users/ARIBILGI/Yeni/BarkodWeb/Views/User/UserListele.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVc2VyTGlzdGVsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aydog/Desktop/Yeni klasör/BarkodWeb/Views/_ViewImports.cshtml]
+[C:/Users/ARIBILGI/Yeni/BarkodWeb/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aydog/Desktop/Yeni klasör/BarkodWeb/Views/_ViewStart.cshtml]
+[C:/Users/ARIBILGI/Yeni/BarkodWeb/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aydog/Desktop/Yeni klasör/BarkodWeb/Views/Shared/_Layout.cshtml]
+[C:/Users/ARIBILGI/Yeni/BarkodWeb/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-p27eyqtza4
