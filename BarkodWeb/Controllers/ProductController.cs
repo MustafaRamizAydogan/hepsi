@@ -61,12 +61,6 @@ namespace BarkodWeb.Controllers.Product
         public async Task<IActionResult> Index(StockAddViewModel stockAddViewModel)
         {
 
-            //--- Fluent Validations Kullanımı-----
-
-            var map = mapper.Map<Stock>(stockAddViewModel);
-            var context = new ValidationContext<object>(stockAddViewModel);
-            var resualt = await validator.ValidateAsync(context);
-
 
 
 
