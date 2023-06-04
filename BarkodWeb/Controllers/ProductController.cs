@@ -50,7 +50,7 @@ namespace BarkodWeb.Controllers.Product
 
          
 
-            return View(new StockAddViewModel { lowerGroups = lower, MainGroups = main });
+            return View();
         }
 
 
@@ -72,8 +72,7 @@ namespace BarkodWeb.Controllers.Product
 
             //---------VALİDATİON KONTROL--------
 
-            if (resualt.IsValid)
-            {
+           
                 //---------STOK GETİRME--------
 
                 var ab = await stockService.GetAllStocksWithMainAndLowerGroupAsync();
@@ -88,48 +87,10 @@ namespace BarkodWeb.Controllers.Product
 
                 }
 
-                foreach (var control in ab)
-                {
-
-                    //---------STOK KONTROL--------
-
-                    if (control.Barkod == stockAddViewModel.Barkod)
-                    {
-                        toast.AddWarningToastMessage("Barkod Zaten Bulunuyor", new ToastrOptions() { Title = "İşlem" });
-
-
-                        return View(new StockAddViewModel { lowerGroups = lower, MainGroups = main });
-                    }
-                    else
-                    {
-                        //---------STOK EKLEME--------
 
 
 
-                        await stockService.CreatStockAsync(stockAddViewModel);
-
-                        toast.AddSuccessToastMessage("Ürünü Ekleme Başarılı", new ToastrOptions() { Title = "İşlem" });
-
-                        return RedirectToAction("Listele", "Product");
-
-
-
-
-                    }
-                }
-
-
-
-            }
-            else
-            {
-                // fluent validations Gösterimi
-                resualt.AddToModelState(this.ModelState);
-
-
-
-
-            }
+           
 
 
 
